@@ -84,6 +84,16 @@ h3 {
 .btn-google {
     background-color: #c32f10;
 }
+
+/*================================
+Education SECTION STYLES
+==================================*/
+.table > thead > tr > th {
+	text-align: center;
+}
+.table > tbody > tr > td {
+	text-align: center;
+}
  /*================================
     PORTFOLIO SECTION STYLES
 ==================================*/
@@ -113,3 +123,4 @@ footer {
         color: #808080;
         text-decoration: none;
     }
+
