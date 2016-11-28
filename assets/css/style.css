@@ -124,5 +124,6 @@ footer a, footer a:hover {
     text-decoration: none;
 }
 
-.description a, .description a:hover, .description a:focus { color: #000;text-decoration: none;outline: 0;  }
+a.email, a.email:hover, a.email:focus { color: #000;text-decoration: none;outline: 0;  }
 
+div#SkypeButton_Call_dumketo_1 img {width: 43%; margin: 0 !important; vertical-align: middle !important; }
