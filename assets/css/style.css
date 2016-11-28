@@ -63,11 +63,11 @@ h3 {
     opacity: 0.8;
 }
 
-    .btn-social:hover {
-        color: white;
-        opacity: 1;
-        text-decoration: none;
-    }
+.btn-social:hover {
+    color: white;
+    opacity: 1;
+    text-decoration: none;
+}
 
 .btn-facebook {
     background-color: #3b5998;
@@ -119,8 +119,11 @@ footer {
     font-weight: 900;
 }
 
-    footer a, footer a:hover {
-        color: #808080;
-        text-decoration: none;
-    }
+footer a, footer a:hover {
+    color: #808080;
+    text-decoration: none;
+}
 
+a.email, a.email:hover, a.email:focus { color: #000;text-decoration: none;outline: 0;  }
+
+div#SkypeButton_Call_dumketo_1 img {width: 43%; margin: 0 !important; vertical-align: middle !important; }
