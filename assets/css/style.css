@@ -12,7 +12,7 @@
     100% Free To use For Personal And Commercial Use.
 
     IN EXCHANGE JUST TELL PEOPLE ABOUT THIS WEBSITE
-   
+
 ========================================================  */
 
 /*================================
@@ -129,3 +129,7 @@ a.email, a.email:hover, a.email:focus { color: #000;text-decoration: none;outlin
 div#SkypeButton_Call_dumketo_1 img {width: 43%; margin: 0 !important; vertical-align: middle !important; }
 
 a.fancybox-media img { height: 300px; }
+
+.progress { height: 25px; }
+
+.progress-bar { line-height: 25px; }
