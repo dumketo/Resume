@@ -88,41 +88,22 @@ h3 {
 /*================================
 Education SECTION STYLES
 ==================================*/
-.table > thead > tr > th {
-	text-align: center;
-}
-.table > tbody > tr > td {
-	text-align: center;
-}
+.table > thead > tr > th { text-align: center; }
+.table > tbody > tr > td { text-align: center; }
+
  /*================================
     PORTFOLIO SECTION STYLES
 ==================================*/
 
+.img-wrapper { text-align:center; padding-bottom:30px; line-height:25px; }
+.img-wrapper img { margin:8px; }
 
-.img-wrapper {
-    text-align:center;
-    padding-bottom:30px;
-    line-height:25px;
-}
-    .img-wrapper img {
-        margin:8px;
-    }
-
-    /*================================
+/*================================
     FOOTER SECTION STYLES
 ==================================*/
 
-footer {
-    padding: 5px;
-    font-size: 15px;
-    text-align: center;
-    font-weight: 900;
-}
-
-footer a, footer a:hover {
-    color: #808080;
-    text-decoration: none;
-}
+footer { padding: 5px; font-size: 15px; text-align: center; font-weight: 900; }
+footer a, footer a:hover { color: #808080; text-decoration: none; }
 
 a.email, a.email:hover, a.email:focus { color: #000;text-decoration: none;outline: 0;  }
 
