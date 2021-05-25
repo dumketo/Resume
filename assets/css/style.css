@@ -118,6 +118,7 @@ a.fancybox-media img { height: 300px; }
 .portfolio-menu{ text-align:center; }
 .portfolio-menu ul li{ display:inline-block; margin:0; list-style:none; padding:10px 15px; cursor:pointer; -webkit-transition:all 05s ease; -moz-transition:all 05s ease; -ms-transition:all 05s ease; -o-transition:all 05s ease; transition:all .5s ease; }
 .portfolio-item .item{ float:left; margin-bottom:10px; }
+.portfolio-item .item img { height: 150px; }
 
 .mb-4, .my-4 { margin-bottom: 1.5rem; }
 .mt-2, .my-2 { margin-top: .5rem; }
