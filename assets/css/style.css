@@ -121,3 +121,12 @@ a.fancybox-media img { height: 300px; }
 
 .mb-4, .my-4 { margin-bottom: 1.5rem; }
 .mt-2, .my-2 { margin-top: .5rem; }
+
+.btn-outline-dark:not(:disabled):not(.disabled).active, .btn-outline-dark:not(:disabled):not(.disabled):active, .show>.btn-outline-dark.dropdown-toggle {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+.btn:not(:disabled):not(.disabled).active, .btn:not(:disabled):not(.disabled):active {
+    background-image: none;
+}
