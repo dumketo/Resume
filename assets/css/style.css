@@ -122,11 +122,15 @@ a.fancybox-media img { height: 300px; }
 .mb-4, .my-4 { margin-bottom: 1.5rem; }
 .mt-2, .my-2 { margin-top: .5rem; }
 
-.btn-outline-dark:not(:disabled):not(.disabled).active, .btn-outline-dark:not(:disabled):not(.disabled):active, .show>.btn-outline-dark.dropdown-toggle {
-    color: #fff;
-    background-color: #343a40;
-    border-color: #343a40;
-}
-.btn:not(:disabled):not(.disabled).active, .btn:not(:disabled):not(.disabled):active {
-    background-image: none;
-}
+.btn-outline-dark:not(:disabled):not(.disabled).active, .btn-outline-dark:not(:disabled):not(.disabled):active, .show>.btn-outline-dark.dropdown-toggle { color: #fff; background-color: #343a40; border-color: #343a40; }
+.btn:not(:disabled):not(.disabled).active, .btn:not(:disabled):not(.disabled):active { background-image: none; }
+
+.item { padding: 0em 0 0em; max-width: 100%; text-align: center; display: block; width: 100%; float: left; box-shadow: 0px 0px 10px rgba(162, 157, 157, 0.25); border-radius: 10px; padding: 15px; }
+.item figure.effect-julia { background: #0060af; border-radius: 10px; }
+.item figure { margin: 0; min-width: 100%; max-width: 100%; max-height: 100%; width: 100%; height: auto; }
+.item figure.effect-julia img { height: auto; width: 100%; }
+a.ourclient-url { display: block; clear: both; padding: 15px 0; }
+figure.effect-julia img { max-width: none; height: 400px; -webkit-transition: opacity 1s, -webkit-transform 1s; transition: opacity 1s, transform 1s; -webkit-backface-visibility: hidden; backface-visibility: hidden; }
+figure.effect-julia figcaption { text-align: left; }
+ figure.effect-julia h2 { position: relative; padding: 0.5em 0; }
+
