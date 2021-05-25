@@ -41,20 +41,21 @@ h3 {
 ==================================*/
 
 
-    .user-wrapper .btn {
-        border-radius: 0px;
-        -webkit-border-radius: 0px;
-        -moz-border-radius: 0px;
-        margin: 5px;
-    }
+.user-wrapper .btn {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    margin: 5px;
+}
 
-    .user-wrapper .description {
-        padding: 15px;
-        background-color: #fff;
-    }
-    .user-wrapper img {
-        width:100%;
-    }
+.user-wrapper .description {
+    padding: 15px;
+    background-color: #fff;
+}
+.user-wrapper img {
+    width:100%;
+    height: 150px;
+}
 
 
 /* SOCIAL BUTTONS */
