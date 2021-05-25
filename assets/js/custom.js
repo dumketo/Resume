@@ -18,17 +18,6 @@
 
 $(document).ready(function () {
 
-    // FANCY BOX FOR POPUP
-
-    $('.fancybox-media').fancybox({
-        openEffect: 'elastic',
-        closeEffect: 'elastic',
-        helpers: {
-            title: {
-                type: 'inside'
-            }
-        }
-    });
     $('.portfolio-menu ul li').click(function () {
         $('.portfolio-menu ul li').removeClass('active');
         $(this).addClass('active');
